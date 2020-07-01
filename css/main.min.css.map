@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AKAA,AAAA,CAAC,CACD,CAAC,AAAA,OAAO,CACR,CAAC,AAAA,QAAQ,AAAA,CACL,UAAU,CAAE,UAAU,CACtB,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACZ,AAED,AAAA,IAAI,AAAA,CACA,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,qBAAqB,CACrC",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utilities/_variables.scss",
+        "../sass/utilities/_functions.scss",
+        "../sass/utilities/_mixins.scss",
+        "../sass/utilities/_breakpoints.scss",
+        "../sass/base/_base.scss",
+        "../sass/base/_typology.scss",
+        "../sass/components/_nav.scss",
+        "../sass/components/_button.scss",
+        "../sass/pages/_landingpage.scss",
+        "../sass/layout/_flex.scss",
+        "../sass/layout/_padding.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
