@@ -1,0 +1,6 @@
+@mixin gap-between($element,$property, $side, $value)
+{
+    #{$element}:not(:last-child){
+        #{$property}-#{$side}: #{$value}rem;
+    }
+}

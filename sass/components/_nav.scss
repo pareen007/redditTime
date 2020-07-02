@@ -1,0 +1,43 @@
+.nav{
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.1rem solid gray;
+    &__left{
+        justify-content: space-between;
+        align-items: flex-start;
+        &-top{
+            @include gap-between(div, padding, right, 2);
+        }
+        &-bottom{
+
+        }
+    }
+    &__center{
+        justify-content: space-between;
+        align-items: center;
+        &-top{
+            @include gap-between(li, padding, right, 2);
+        }
+        &-bottom{
+            h1{
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 6rem;
+                letter-spacing: 0.35rem;
+            }
+        }
+    }
+    &__right{
+        justify-content: space-between;
+        align-items: flex-end;
+        &-top{
+            @include gap-between(button, margin, right, 2);
+        }
+        &-bottom{
+
+        }
+    }
+ul{
+    list-style: none;
+}
+}

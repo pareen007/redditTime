@@ -4,11 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>Document</title>
+    <title>Reddit Times</title>
 </head>
 
 <body>
+    <header role="banner">
+        <nav class="nav flex-row">
+            <div class="nav__left flex-column">
+                <div class="nav__left-top flex-row">
+                    <div><i class="material-icons">menu</i></div>
+                    <div class="search">
+                        <i class="material-icons">search</i>
+                    </div>
+                </div>
+                <div class="nav__left-bottom">
+                    date
+                </div>
+            </div>
+            <div class="nav__center flex-column">
+                <ul class="nav__center-top flex-row">
+                    <li class="">english</li>
+                    <li class="">espoñol</li>
+                </ul>
+                <div class="nav__center-bottom">
+                    <h1>Reddit Times</h1>
+                </div>
+            </div>
+            <div class="nav__right flex-column">
+                <div class="nav__right-top flex-row">
+                    <button class="main-btn">subscribe now</button>
+                    <button class="main-btn">log in</button>
+                </div>
+                <div class="nav__right-bottom">
+                    <select name="cars" id="sort" class="sort">
+                        <option value="best">best</option>
+                        <option value="hot">hot</option>
+                        <option value="new">new</option>
+                        <option value="top">top</option>
+                        <option value="rising">rising</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 
 
     <script src="js/landingpage.js"></script>
